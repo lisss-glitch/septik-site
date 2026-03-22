@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>СептикПро | Обслуживание и ремонт септиков</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="septik-style.css">
+</head>
+<body>
+
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-water"></i> СептикПро
+            </div>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#about">О мастере</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#price">Прайс-лист</a></li>
+                    <li><a href="#details">Подробности</a></li>
+                    <li><a href="#brands">Бренды</a></li>
+                    <li><a href="#gallery">Мои работы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="burger" id="burgerBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ГЕРОЙ / ПРЕЗЕНТАЦИЯ -->
+        <section class="hero" id="about">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <h1>Профессиональное обслуживание и ремонт септиков в Москве и области</h1>
+                    <p>Здравствуйте! Меня зовут Станислав. Более 10 лет я профессионально занимаюсь обслуживанием и ремонтом автономных канализаций. Работаю быстро, с гарантией качества. Выезжаю оперативно, все необходимое оборудование и запчасти всегда со мной.</p>
+                    <div class="hero-features">
+                        <span><i class="fas fa-check-circle"></i> ОБСЛУЖИВАНИЕ СЕПТИКОВ</span>
+                        <span><i class="fas fa-check-circle"></i> НАРАЩИВАНИЕ СЕПТИКОВ, СКВАЖИН</span>
+                        <span><i class="fas fa-check-circle"></i> РАЗМОРОЗКА МАГИСТРАЛЕЙ</span>
+                        <span><i class="fas fa-check-circle"></i> УСТАНОВКА ГРЕЮЩЕГО КАБЕЛЯ</span>
+                    </div>
+                    <button class="btn-primary" id="openModalBtn">Связаться <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="hero-img">
+                    <div class="image-placeholder">
+                        <i class="fas fa-tools fa-4x"></i>
+                        <p>Фото мастера / оборудования</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ОСНОВНЫЕ УСЛУГИ -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title">Основные услуги</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>Регулярное обслуживание</h3>
+                        <p>Рекомендуется 1-2 раза в год для предотвращения серьезных поломок.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-wrench"></i>
+                        <h3>Ремонт любой сложности</h3>
+                        <p>От мелких неисправностей до сложных случаев с полной диагностикой.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-exchange-alt"></i>
+                        <h3>Замена комплектующих</h3>
+                        <p>Компрессоры, насосы, блоки управления, аэраторы, клапаны, поплавки, фильтры, мембраны.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-cubes"></i>
+                        <h3>Работы с корпусом</h3>
+                        <p>Пайка перегородок, наращивание горловин, герметизация.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-snowplow"></i>
+                        <h3>Сезонные работы</h3>
+                        <p>Консервация и расконсервация на зиму, защита от промерзания.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-truck-fast"></i>
+                        <h3>Срочный выезд</h3>
+                        <p>Откачка затоплений, разморозка труб + установка греющего кабеля.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-burn"></i>
+                        <h3>Восстановление сгоревшего септика</h3>
+                        <p>Полное восстановление работоспособности после аварий.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- МОИ РАБОТЫ (галерея 6 работ с подписями) -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <h2 class="section-title">Мои работы</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="image-placeholder square">
+                            <i class="fas fa-image fa-3x"></i>
+                        </div>
+                        <p class="gallery-caption">Монтаж септика Топас</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder square">
+                            <i class="fas fa-image fa-3x"></i>
+                        </div>
+                        <p class="gallery-caption">Замена компрессора</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder square">
+                            <i class="fas fa-image fa-3x"></i>
+                        </div>
+                        <p class="gallery-caption">Наращивание горловины</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder square">
+                            <i class="fas fa-image fa-3x"></i>
+                        </div>
+                        <p class="gallery-caption">Чистка септика</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder square">
+                            <i class="fas fa-image fa-3x"></i>
+                        </div>
+                        <p class="gallery-caption">Установка аэрационной системы</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder square">
+                            <i class="fas fa-image fa-3x"></i>
+                        </div>
+                        <p class="gallery-caption">Ремонт блока управления</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ПРАЙС-ЛИСТ -->
+        <section class="price-list" id="price">
+            <div class="container">
+                <h2 class="section-title">Прайс-лист</h2>
+                <div class="table-wrapper">
+                    <table class="price-table">
+                        <tbody>
+                            <tr><td>Обслуживание септиков</td><td>от 4 500 ₽</td></tr>
+                            <tr><td>Сервисное обслуживание</td><td>от 3 000 ₽</td></tr>
+                            <tr><td>Чистка септика</td><td>от 3 000 ₽</td></tr>
+                            <tr><td>Диагностика септика</td><td>3 500 ₽</td></tr>
+                            <tr><td>Ремонт септика</td><td>от 4 500 ₽</td></tr>
+                            <tr><td>Замена компрессора из системы аэрации</td><td>1 000 ₽</td></tr>
+                            <tr><td>Установка аэрационных систем для септика</td><td>от 3 000 ₽</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ПОДРОБНОСТИ -->
+        <section class="details" id="details">
+            <div class="container">
+                <h2 class="section-title">Подробности о работе</h2>
+                <div class="details-wrapper">
+                    <div class="details-block">
+                        <h3><i class="fas fa-user-cog"></i> Чем занимается исполнитель</h3>
+                        <p>Ремонт и обслуживание скважин, септиков, колодцев</p>
+                        <h3><i class="fas fa-hard-hat"></i> Работа с септиками</h3>
+                        <ul>
+                            <li>Откачка</li>
+                            <li>Чистка и промывка</li>
+                            <li>Диагностика</li>
+                            <li>Ремонт или замена отдельных деталей</li>
+                            <li>Монтаж и настройка оборудования</li>
+                            <li>Консервация и расконсервация</li>
+                            <li>Наращивание горловины септика</li>
+                        </ul>
+                        <h3><i class="fas fa-truck"></i> Метод откачки</h3>
+                        <p>Ассенизатор, Илосос, Ручная откачка</p>
+                    </div>
+                    <div class="details-block">
+                        <h3><i class="fas fa-users"></i> Доступно мастеров</h3>
+                        <p>1 человек, 2–4 человека</p>
+                        <h3><i class="fas fa-chart-line"></i> Опыт в сфере</h3>
+                        <p>10 лет и больше</p>
+                        <h3><i class="fas fa-medal"></i> Гарантия на работу</h3>
+                        <p>Есть</p>
+                        <h3><i class="fas fa-file-signature"></i> Работа по договору</h3>
+                        <p>Да. Шаблоны: договор, расписка, акт</p>
+                        <h3><i class="fas fa-boxes"></i> Исполнитель закупает материалы</h3>
+                        <p>Да</p>
+                        <h3><i class="fas fa-clock"></i> График работы / время для связи</h3>
+                        <p>пн–вс, 07:00–22:00</p>
+                        <h3><i class="fas fa-ruble-sign"></i> Минимальная сумма заказа</h3>
+                        <p>3500 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- БРЕНДЫ -->
+        <section class="brands" id="brands">
+            <div class="container">
+                <h2 class="section-title">Работаем со всеми типами и брендами</h2>
+                <div class="brands-list">
+                    <span>Топас</span> <span>Юнилос</span> <span>Астра</span> <span>Евролос Про</span>
+                    <span>Биодека</span> <span>Тверь</span> <span>Евробион</span> <span>Тополь</span>
+                    <span>Евролос Био</span> <span>Кит</span> <span>Аквалос</span> <span>Итал</span>
+                    <span>Биодевайс</span> <span>Руслос</span> <span>Танк</span> <span>Кибез</span>
+                    <span>Эко-Гранд</span> <span>Гарда</span> <span>Евробион</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- КОНТАКТЫ + КАРТА -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="contact-info">
+                        <h2><i class="fas fa-phone-alt"></i> Связь и выезд</h2>
+                        <p>На связи ежедневно. Приеду быстро, сделаю качественно. Работаю по Москве и Московской области.</p>
+                        <p class="contact-note"><i class="fas fa-lightbulb"></i> <strong>Важно:</strong> Регулярное ТО — это экономия! Позволяет избежать дорогостоящего аварийного ремонта.</p>
+                        <a href="tel:+79857383930" class="btn-primary"><i class="fas fa-phone"></i> +7 (985) 738-39-30</a>
+                        <a href="https://max.me/79857383930" class="btn-secondary btn-max-custom">
+                            <img src="max.png" alt="MAX" class="max-icon-img"> Написать в MAX
+                        </a>
+                    </div>
+                    <div class="contact-map">
+                        <div class="mini-map">
+                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f&amp;source=constructor" width="100%" height="250" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <p class="map-note">Москва и Московская область</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- МОДАЛЬНОЕ ОКНО (только телефон) -->
+    <div id="phoneModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <i class="fas fa-phone-alt modal-icon"></i>
+                <h3>Свяжитесь с нами</h3>
+                <p class="modal-phone">+7 (985) 738-39-30</p>
+                <p>Звоните в любое время с 07:00 до 22:00</p>
+                <a href="tel:+79857383930" class="btn-primary modal-call-btn">Позвонить</a>
+            </div>
+        </div>
+    </div>
+
+        <!-- ПОДВАЛ -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3><i class="fas fa-water"></i> СептикПро</h3>
+                <p>Профессиональный ремонт и обслуживание септиков в Москве и области. Более 10 лет опыта.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Быстрая информация</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Гарантия на все работы</li>
+                    <li><i class="fas fa-check-circle"></i> Выезд в день обращения</li>
+                    <li><i class="fas fa-check-circle"></i> Оригинальные запчасти</li>
+                    <li><i class="fas fa-check-circle"></i> Работа по договору</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Контакты</h3>
+                <p><i class="fas fa-phone"></i> <a href="tel:+79857383930" style="color: inherit; text-decoration: none;">+7 (985) 738-39-30</a></p>
+                <p class="footer-max-link">
+                    <img src="max.png" alt="MAX" class="footer-max-icon">
+                    <a href="https://max.me/79857383930" style="color: inherit; text-decoration: none;">MAX: +7 (985) 738-39-30</a>
+                </p>
+                <p><i class="fas fa-envelope"></i> info@septikpro.ru</p>
+                <p><i class="fas fa-clock"></i> Ежедневно 07:00–22:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 СептикПро. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script>
+        const burger = document.getElementById('burgerBtn');
+        const navMenu = document.getElementById('navMenu');
+        
+        burger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            const icon = burger.querySelector('i');
+            if (navMenu.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+        
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                const icon = burger.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            });
+        });
+        
+        document.querySelectorAll('a[href^="#"]:not(.modal-call-btn)').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === "#" || href === "") return;
+                const target = document.querySelector(href);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        const modal = document.getElementById('phoneModal');
+        const openModalBtn = document.getElementById('openModalBtn');
+        const closeModalSpan = document.querySelector('.close-modal');
+
+        openModalBtn.addEventListener('click', () => {
+            modal.style.display = 'flex';
+        });
+
+        closeModalSpan.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
