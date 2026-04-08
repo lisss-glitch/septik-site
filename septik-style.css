@@ -190,27 +190,6 @@ body {
     transform: translateY(-2px);
 }
 
-/* Стили для кнопки MAX с картинкой */
-.btn-max-custom {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background-color: white;
-    color: #2c6e9e;
-    border: 1.5px solid #2c6e9e;
-}
-
-.btn-max-custom:hover {
-    background-color: #eef2f7;
-}
-
-.max-icon-img {
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
-    display: inline-block;
-}
-
 /* Section titles */
 .section-title {
     font-size: 2rem;
@@ -554,22 +533,6 @@ body {
     width: 20px;
 }
 
-/* Стили для иконки MAX в подвале */
-.footer-max-link {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 8px;
-}
-
-.footer-max-icon {
-    width: 18px;
-    height: 18px;
-    object-fit: contain;
-    display: inline-block;
-}
-
-/* Стили для ссылок в подвале */
 .footer-col a {
     color: #e0e7ed;
     text-decoration: none;
@@ -780,15 +743,5 @@ body {
     
     .mini-map iframe {
         height: 200px;
-    }
-
-    .max-icon-img {
-        width: 18px;
-        height: 18px;
-    }
-
-    .footer-max-icon {
-        width: 16px;
-        height: 16px;
     }
 }
